@@ -18,7 +18,7 @@ const BoxHome = styled(Box)({
 })
 const Home = () => {
   const{products}=useSelector(state=>state.getProducts)
-  console.log('data from home is ' ,products)
+  // console.log('data from home is ' ,products)
   const topDeals= products.slice(0,7)
   // console.log('topDeals from home is ' , topDeals)
   const womenFashion= products.slice(8,15)
